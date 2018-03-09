@@ -10,15 +10,15 @@
 
 
 .item1 { grid-area: header;
-      background-color: #ffffff}
+  background-color: #ffffff}
 .item2 { grid-area: menu;
-      background-color: #ff3333}
+  background-color: #ff3333}
 .item3 { grid-area: main;
-      background-color: #3366ff}
+  background-color: #3366ff}
 .item4 { grid-area: right;
-       background-color: #00ffbf}
+  background-color: #00ffbf}
 .item5 { grid-area: footer;
-       background-color: #ff8000}
+  background-color: #ff8000}
        
 
 .grid-container {
@@ -28,7 +28,6 @@
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
 }
 .grid-container > div {
