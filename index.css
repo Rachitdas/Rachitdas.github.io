@@ -10,17 +10,17 @@
 }
 
 .navigation {
-  grid-area: main;
+  grid-area: header;
   background-color: #3366ff;
 }
 
 .menu {
-  grid-area: space;
+  grid-area: menu;
   background-color: #00bfff;
 }
 
 .right {
-  grid-area: content;
+  grid-area: right;
   background-color: #00ffbf;
 }
 
