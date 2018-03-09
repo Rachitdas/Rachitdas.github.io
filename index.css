@@ -26,7 +26,7 @@
 
 .menu {
   grid-area: menu;
-  background-color: #ff3333;
+  background-color: #00bfff;
 }
 
 .main {
@@ -41,7 +41,7 @@
 
 .footer {
   grid-area: footer;
-  background-color: #ff8000;
+  background-color: #1aff53;
 }
 
 .grid-container {
