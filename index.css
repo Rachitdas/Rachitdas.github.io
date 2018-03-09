@@ -9,29 +9,49 @@
 }
 
 
-.header { 
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  margin-left: auto;
+}
+
+.header {
   grid-area: header;
-  background-color: #ffffff;}
-.menu { grid-area: menu;
-  background-color: #ff3333}
-.main { grid-area: main;
-  background-color: #3366ff}
-.right { grid-area: right;
-  background-color: #00ffbf}
-.footer { grid-area: footer;
-  background-color: #ff8000}
-       
+  background-color: #ffffff;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: #ff3333;
+}
+
+.main {
+  grid-area: main;
+  background-color: #3366ff;
+}
+
+.right {
+  grid-area: right;
+  background-color: #00ffbf;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #ff8000;
+}
 
 .grid-container {
   display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+  grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
   grid-gap: 10px;
   padding: 10px;
 }
-.grid-container > div {
+
+.grid-container>div {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
