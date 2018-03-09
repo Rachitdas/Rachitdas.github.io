@@ -9,16 +9,16 @@
 }
 
 
-.item1 { 
+.header { 
   grid-area: header;
   background-color: #ffffff;}
-.item2 { grid-area: menu;
+.menu { grid-area: menu;
   background-color: #ff3333}
-.item3 { grid-area: main;
+.main { grid-area: main;
   background-color: #3366ff}
-.item4 { grid-area: right;
+.right { grid-area: right;
   background-color: #00ffbf}
-.item5 { grid-area: footer;
+.footer { grid-area: footer;
   background-color: #ff8000}
        
 
