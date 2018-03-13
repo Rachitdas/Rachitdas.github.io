@@ -4,18 +4,10 @@ div.container {
     border: 1px solid gray;
 }
 
-.header {
+.header, footer {
     padding: 1em;
     color: white;
     background-color: #33e8b1;
-    clear: left;
-    text-align: center;
-}
-
-.footer {
-    padding: 1em;
-    color: white;
-    background-color: #00d8ff;
     clear: left;
     text-align: center;
 }
