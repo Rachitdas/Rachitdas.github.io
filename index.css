@@ -4,7 +4,7 @@ div.container {
     border: 1px solid gray;
 }
 
-header {
+.header {
     padding: 1em;
     color: white;
     background-color: #33e8b1;
@@ -12,7 +12,7 @@ header {
     text-align: center;
 }
 
-footer {
+.footer {
     padding: 1em;
     color: white;
     background-color: #00d8ff;
@@ -20,7 +20,7 @@ footer {
     text-align: center;
 }
 
-menu {
+.menu {
     padding: 1em;
     color: white;
     background-color: #ff7acc;
@@ -28,23 +28,23 @@ menu {
     text-align: center;
 }
 
-nav {
+.nav {
     float: left;
     max-width: 160px;
     margin: 0;
     padding: 1em;
 }
 
-nav ul {
+.nav ul {
     list-style-type: none;
     padding: 0;
 }
    
-nav ul a {
+.nav ul a {
     text-decoration: none;
 }
 
-article {
+.article {
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
