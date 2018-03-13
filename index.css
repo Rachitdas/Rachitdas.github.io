@@ -4,10 +4,26 @@ div.container {
     border: 1px solid gray;
 }
 
-header, footer {
+header {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: #33e8b1;
+    clear: left;
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #00d8ff;
+    clear: left;
+    text-align: center;
+}
+
+menu {
+    padding: 1em;
+    color: white;
+    background-color: #ff7acc;
     clear: left;
     text-align: center;
 }
