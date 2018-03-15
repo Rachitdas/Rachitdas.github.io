@@ -1,3 +1,22 @@
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Left</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Footer</div>
+</div>
+
+.item1 { grid-area: header; }
+.item2 { grid-area: Left; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left main main main main main'
+    'left footer footer footer footer footer';
+    
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -22,7 +41,7 @@ header {
     color: white;
     background-color: #33e8b1;
     clear: left;
-    text-align: center;
+    text-align: center;   
 }
 
 footer {
