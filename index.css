@@ -8,7 +8,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'nav nav nav nav nav nav
+    'navigation navigation navigation navigation navigation navigation
     'menu main main main main main'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
