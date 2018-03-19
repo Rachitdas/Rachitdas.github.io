@@ -2,11 +2,13 @@
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: footer; }
+.item5 { grid-area: navigation; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
+    'nav nav nav nav nav nav
     'menu main main main main main'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
