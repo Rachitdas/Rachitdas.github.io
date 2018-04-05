@@ -46,3 +46,8 @@
   background-color: #2196F3;
   font-size: 1.2em
 }
+
+div.item4 img {
+width:100%;
+height: auto;
+}
