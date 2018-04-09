@@ -1,16 +1,15 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: navigation; }
-.item3 { grid-area: menu; }
 .item4 { grid-area: main; }
 .item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'navigation navigation navigation navigation navigation navigation'
-    'menu main main main main main'
-    'menu footer footer footer footer footer';
+    'header';
+    'navigation';
+    'main';
+    'footer';
   grid-gap: 10px;
   background-color: #42f4f1;
   padding: 10px;
